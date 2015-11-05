@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    pdf-core (0.6.0)
+    prawn (2.0.2)
+      pdf-core (~> 0.6.0)
+      ttfunk (~> 1.4.0)
+    prawn-table (0.2.2)
+      prawn (>= 1.3.0, < 3.0.0)
+    ttfunk (1.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  prawn
+  prawn-table
+
+BUNDLED WITH
+   1.10.6
